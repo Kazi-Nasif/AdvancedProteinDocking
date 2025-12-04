@@ -124,8 +124,8 @@ python scripts/verify_results.py
 
 ## 📖 Documentation
 
-- **[Algorithm Explanation](docs/verification/COMPLETE_ALGORITHM_EXPLANATION.md)** - Detailed walkthrough
-- **[Mathematical Foundations](docs/MATHEMATICAL_BIOLOGICAL_FOUNDATIONS.md)** - Theory and derivations
+- **[Algorithm Explanation](docs/COMPLETE_ALGORITHM_EXPLANATION.md)** - Detailed walkthrough
+- **[Mathematical Foundations](docs/mathematical_foundations/MATHEMATICAL_BIOLOGICAL_FOUNDATIONS.md)** - Theory and derivations
 - **[Explainability Analysis](docs/explainability/EXPLAINABILITY_GUIDE.md)** - Validation methods
 - **[Prediction Tool Guide](docs/PREDICTION_TOOL_GUIDE.md)** - Usage instructions
 

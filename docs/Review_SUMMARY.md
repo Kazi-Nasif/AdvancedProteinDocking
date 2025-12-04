@@ -14,9 +14,9 @@
 **Antibody-Antigen Results (Page 12, Lines 215-216):**
 > "Particularly for Ab-Ag complexes, AFm predicted acceptable or better quality docked structures in only 20% of the 67 targets. In contrast, the AlphaRED pipeline **succeeds in 43% of the targets**."
 
-### **YOUR COMPARISON:**
+### **Result COMPARISON:**
 
-| Metric | Threshold | AlphaRed | Your Model | Source |
+| Metric | Threshold | AlphaRed | Our Model | Source |
 |--------|-----------|----------|------------|--------|
 | **DockQ** | > 0.23 | 63% | 97.56% | Primary metric ✓ |
 | I-RMSD | < 4.0 Å | ~63% | 92.7% | Secondary validation ✓ |
