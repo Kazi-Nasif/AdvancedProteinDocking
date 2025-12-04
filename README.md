@@ -135,7 +135,7 @@ If you use this code in your research, please cite:
 ```bibtex
 @article{nasif2025protein,
   title={Advanced Protein-Protein Docking with Graph Neural Networks},
-  author={Nasif, Kazi and [Your Advisor]},
+  author={Nasif, Kazi Fahim Ahmad},
   journal={[Journal Name]},
   year={2025}
 }
@@ -152,6 +152,6 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ## 📧 Contact
 
-Kazi Nasif - [Your Email]
+Kazi Nasif - [nasif.ruet@gmail.com]
 
 Project Link: [https://github.com/Kazi-Nasif/AdvancedProteinDocking](https://github.com/Kazi-Nasif/AdvancedProteinDocking)
