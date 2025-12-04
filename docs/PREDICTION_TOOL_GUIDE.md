@@ -401,7 +401,7 @@ print(f'Mean I-RMSD: {sum(r[\"irmsd\"] for r in results)/len(results):.4f} Å')
 
 ---
 
-## 🎯 FOR YOUR ADVISOR / REVIEWERS
+## 🎯 FOR REVIEWERS
 
 ### **Reproducibility Test**
 
@@ -450,71 +450,4 @@ ls -R data/
 
 ---
 
-## 📈 EXPECTED PERFORMANCE
 
-Based on training results:
-
-| Category | Expected Success Rate |
-|----------|----------------------|
-| Overall | ~97% |
-| Rigid | ~96% |
-| Medium | ~91% |
-| Difficult | ~78% |
-| Antibody-Antigen | ~95% |
-
-**Success = DockQ > 0.23** (same as AlphaRed)
-
----
-
-## 💡 TIPS
-
-1. **Start with rigid targets** - Easiest to verify
-2. **Test antibodies** - Shows power of method (AlphaRed: 43%, Yours: 95%)
-3. **Compare with training** - Should be consistent
-4. **Visualize results** - Use PyMOL to see docked structures
-5. **Test failed cases** - Understand limitations
-
----
-
-## 🎓 FOR PAPER / PRESENTATION
-
-### **Demo Script for Advisor:**
-
-```bash
-echo "DEMONSTRATION: Protein Docking Prediction Tool"
-echo "=============================================="
-echo ""
-echo "Testing on benchmark target 1AHW (Antibody-Antigen)"
-echo ""
-
-python scripts/predict_docking.py \
-    --target 1AHW \
-    --difficulty rigid \
-    --evaluate \
-    --output-dir demo/1AHW
-
-echo ""
-echo "Result saved to demo/1AHW/"
-echo "- View metrics: cat demo/1AHW/metrics.json"
-echo "- Visualize: pymol demo/1AHW/predicted_complex.pdb"
-```
-
----
-
-## ✅ VERIFICATION CHECKLIST
-
-- [ ] Install all dependencies
-- [ ] Test on single target (1A2K)
-- [ ] Verify DockQ > 0.23 (success)
-- [ ] Test on multiple targets (5+)
-- [ ] Compare with training results
-- [ ] Test antibody-antigen target
-- [ ] Visualize predicted complex
-- [ ] Document results
-
----
-
-**Questions? Check the main documentation or run:**
-```bash
-python scripts/predict_docking.py --help
-```

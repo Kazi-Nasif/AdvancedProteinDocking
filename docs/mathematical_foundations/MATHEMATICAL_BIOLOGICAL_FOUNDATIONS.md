@@ -1,23 +1,5 @@
 # 📐 MATHEMATICAL & BIOLOGICAL FOUNDATIONS
-## Why This Model Works: Rigorous Justification for Reviewers
 
----
-
-## 🎯 ADDRESSING REVIEWER CONCERNS
-
-### **Concern 1: "It's a black box"**
-**Answer**: No - it's a principled mathematical framework based on graph theory and geometric deep learning
-
-### **Concern 2: "Will it generalize?"**
-**Answer**: Yes - we show consistent performance across 8 protein categories, 3 difficulty levels, and provide cross-validation
-
-### **Concern 3: "Does it respect physics?"**
-**Answer**: Yes - learned representations implicitly encode physical constraints (we validate this)
-
-### **Concern 4: "Where's the biological insight?"**
-**Answer**: The model learns chemically-meaningful features (hydrophobicity, charge complementarity, shape)
-
----
 
 ## 1. MATHEMATICAL FOUNDATIONS
 
@@ -323,7 +305,7 @@ failures = results[results['success'] == False]
 
 ---
 
-## 9. MATHEMATICAL RIGOR FOR PAPER
+## 9. MATHEMATICAL RIGOR
 
 ### **Theorem 1: Universal Approximation for Graphs**
 
@@ -390,7 +372,7 @@ pca = PCA(n_components=2).fit(embeddings)
 
 ---
 
-## 11. ADDRESSING SPECIFIC REVIEWER QUESTIONS
+## 11. ADDRESSING FAQs
 
 ### **Q1: "Why not use ESM-2 or AlphaFold embeddings?"**
 
@@ -474,8 +456,6 @@ pca = PCA(n_components=2).fit(embeddings)
 
 ## 🎯 CHECKLIST FOR REVIEWERS
 
-For your paper, include:
-
 **✅ Methods:**
 - [ ] Mathematical formulation of GNN
 - [ ] Justification for architecture choices
@@ -506,11 +486,3 @@ For your paper, include:
 
 ---
 
-**This framework will convince reviewers that your model is:**
-1. ✅ **Mathematically sound** (not just empirical)
-2. ✅ **Biologically meaningful** (learns real principles)
-3. ✅ **Physically valid** (respects constraints)
-4. ✅ **Generalizable** (not overfitting)
-5. ✅ **Interpretable** (not a black box)
-
-**Run the explainability analysis script and include these results in your paper!**

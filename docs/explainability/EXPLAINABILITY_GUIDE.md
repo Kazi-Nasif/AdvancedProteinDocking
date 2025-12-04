@@ -337,11 +337,4 @@ cat experiments/20251126_185619_full_training/evaluation/explainability_summary.
 
 ---
 
-**With this analysis, reviewers will see:**
-1. ✅ **Rigorous validation** (not just good numbers)
-2. ✅ **Physical understanding** (respects chemistry)
-3. ✅ **Biological meaning** (learns real principles)
-4. ✅ **Honest limitations** (2.4% failures explained)
-5. ✅ **Reproducible** (clear methods, code available)
 
-**This is publication-ready for Nature/NeurIPS!** 🎯

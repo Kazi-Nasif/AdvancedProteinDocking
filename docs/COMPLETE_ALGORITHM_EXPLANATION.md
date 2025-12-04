@@ -1,15 +1,4 @@
 # 🔬 COMPLETE ALGORITHM EXPLANATION
-## For Your Advisor: What the Code Actually Does
-
----
-
-## 🎯 ADDRESSING SKEPTICISM:
-
-**Your Advisor's Question:** "How can a simple GNN achieve 97.56% when AlphaRed (complex pipeline) only gets 63%?"
-
-**Answer:** Let me show you EXACTLY what the code does, step by step, with no hidden complexity.
-
----
 
 ## 📁 1. WHICH PDB FILES WERE USED?
 
@@ -346,7 +335,7 @@ Step 4: Energy minimization
 Final: 63% success
 ```
 
-**Your GNN:**
+**Our GNN:**
 ```
 Input: Unbound structures
   ↓
@@ -428,7 +417,7 @@ Antibody-Antigen (67 targets):
   - AFm alone: 20%
 ```
 
-### **Your Performance:**
+### **Our Performance:**
 
 ```
 Overall (246 evaluated targets):
@@ -449,32 +438,7 @@ Antibody-Antigen (66 targets):
 
 ---
 
-## 🎯 6. ADDRESSING "IT'S TOO SIMPLE":
-
-### **Why Simple Can Be Better:**
-
-**Occam's Razor:** Simpler models often generalize better
-
-**Deep Learning History:**
-- ImageNet: VGG (simple stacked convolutions) beat complex handcrafted features
-- AlphaGo: Simple neural network + MCTS beat expert systems
-- GPT: Simple transformer architecture beat complex NLP pipelines
-
-**Key Insight:** 
-```
-Complex ≠ Better
-End-to-end optimization > Multi-stage pipelines
-```
-
-**Your Model:**
-- 190,855 parameters (small!)
-- 3 GNN layers (shallow!)
-- Direct I-RMSD loss (simple!)
-- But: End-to-end trained (powerful!)
-
----
-
-## 🔬 7. HOW TO VERIFY RESULTS:
+## 🔬 6. HOW TO VERIFY RESULTS:
 
 ### **Verification Steps for Your Advisor:**
 
@@ -539,67 +503,4 @@ print('Success:', result['success'])
 
 ---
 
-## 📋 8. CHECKLIST FOR YOUR ADVISOR:
 
-- [ ] Understand data loading (PDB files)
-- [ ] Understand feature extraction (26D vectors)
-- [ ] Understand graph construction (8Å contacts)
-- [ ] Understand GNN architecture (message passing)
-- [ ] Understand transformation prediction (rotation + translation)
-- [ ] Understand loss function (I-RMSD)
-- [ ] Understand evaluation (DockQ calculation)
-- [ ] Verify same metrics as AlphaRed (DockQ > 0.23)
-- [ ] Run verification scripts above
-
----
-
-## 🎓 9. WHY THIS IS BELIEVABLE:
-
-### **Similar Success Stories in ML:**
-
-**1. AlphaFold (2020):**
-- Previous best: Template-based modeling (~40% accuracy)
-- AlphaFold: >90% accuracy
-- Community reaction: "Too good to be true!"
-- Reality: End-to-end deep learning beats hand-crafted pipelines
-
-**2. AlphaZero (2017):**
-- Previous: Stockfish (chess engine with human knowledge)
-- AlphaZero: Self-play reinforcement learning
-- Result: Beat Stockfish decisively
-- Key: Simple architecture, direct optimization
-
-**3. Your Work:**
-- Previous: AlphaRed (multi-stage pipeline, 63%)
-- Your GNN: End-to-end learning (97.56%)
-- Same pattern: Direct optimization beats pipelines
-
----
-
-## 📝 10. FINAL SUMMARY FOR ADVISOR:
-
-### **What Was Done:**
-1. ✅ Loaded 254 protein complexes from Benchmark 5.5
-2. ✅ Extracted 26D features per residue (coords + type + properties)
-3. ✅ Built contact graphs (8Å threshold)
-4. ✅ Trained 3-layer GNN to predict rigid-body transformation
-5. ✅ Evaluated using DockQ (same as AlphaRed)
-6. ✅ Achieved 97.56% success vs AlphaRed's 63%
-
-### **Why It Works:**
-- ✅ End-to-end optimization (no error accumulation)
-- ✅ Direct I-RMSD loss (task-specific training)
-- ✅ Sufficient model capacity (190K parameters)
-- ✅ Appropriate architecture (GNNs for graphs)
-
-### **How to Verify:**
-- ✅ Check data loading (run verification scripts)
-- ✅ Check model predictions (evaluate single target)
-- ✅ Check evaluation metrics (same as AlphaRed)
-- ✅ Check for data leakage (only unbound in input)
-
----
-
-**The results are real. The method is simple. Simple can be better.**
-
-**Next step: Run verification scripts above to convince your advisor!**
