@@ -1,0 +1,5 @@
+{
+  "num_gpus": 0,
+  "gpus": [],
+  "cuda_available": false
+}

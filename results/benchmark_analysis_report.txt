@@ -1,0 +1,58 @@
+================================================================================
+BENCHMARK 5.5 DATASET - COMPREHENSIVE ANALYSIS REPORT
+================================================================================
+
+1. DATASET OVERVIEW
+--------------------------------------------------------------------------------
+Total Complexes: 257
+Source: Docking Benchmark 5.5 (DB5.5)
+Data Type: Protein-Protein Complexes
+Structure: Bound and Unbound PDB files
+
+2. KEY METRICS
+--------------------------------------------------------------------------------
+Interface-RMSD (I-RMSD):
+  - Range: 0.29 - 8.38 Å
+  - Mean ± Std: 1.38 ± 1.09 Å
+  - Median: 1.06 Å
+  - Near-native (< 4.0 Å): 249 (96.9%)
+
+ΔASA (Delta Accessible Surface Area):
+  - Range: 799 - 6671 Ų
+  - Mean ± Std: 1848 ± 697 Ų
+  - Median: 1697 Ų
+
+3. CATEGORY DISTRIBUTION
+--------------------------------------------------------------------------------
+AA: 55 complexes (21.4%)
+OX: 55 complexes (21.4%)
+EI: 45 complexes (17.5%)
+ER: 26 complexes (10.1%)
+OR: 24 complexes (9.3%)
+OG: 23 complexes (8.9%)
+ES: 17 complexes (6.6%)
+AS: 12 complexes (4.7%)
+
+4. DIFFICULTY DISTRIBUTION
+--------------------------------------------------------------------------------
+Rigid-body: 162 complexes (63.0%)
+Medium: 60 complexes (23.3%)
+Difficult: 35 complexes (13.6%)
+
+5. BASELINE PERFORMANCE (AlphaRed)
+--------------------------------------------------------------------------------
+Overall Success Rate: 63% (DockQ > 0.23)
+Antibody-Antigen Success Rate: 43%
+Interface-pLDDT Threshold: 85
+
+6. PROJECT GOALS
+--------------------------------------------------------------------------------
+Target: Beat AlphaRed's 63% success rate
+Focus: Improve antibody-antigen docking (>43%)
+Validation: Benchmark 5.5 dataset
+Metrics: I-RMSD, ΔASA, DockQ, fnat
+Target Conferences: IJCAI, ICML, NeurIPS
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,61 @@
+# Core Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Bioinformatics
+biopython>=1.81
+biotite>=0.38.0
+mdtraj>=1.9.7
+
+# Structure Analysis
+prody>=2.4.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Graph Neural Networks
+torch-geometric>=2.3.0
+torch-scatter>=2.1.0
+torch-sparse>=0.6.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+tensorboard>=2.13.0
+wandb>=0.15.0
+
+# Data Processing
+h5py>=3.8.0
+networkx>=3.1
+
+# Protein Structure
+pymol-open-source>=2.5.0
+
+# Optimization
+optuna>=3.2.0
+
+# Testing
+pytest>=7.3.0
+pytest-cov>=4.1.0
+
+# Documentation
+sphinx>=6.2.0
+sphinx-rtd-theme>=1.2.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.23.0
+
+# Development
+black>=23.3.0
+flake8>=6.0.0
+mypy>=1.3.0

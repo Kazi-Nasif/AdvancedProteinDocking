@@ -1,0 +1,34 @@
+{
+  "total_complexes": 257,
+  "categories": {
+    "AA": 55,
+    "OX": 55,
+    "EI": 45,
+    "ER": 26,
+    "OR": 24,
+    "OG": 23,
+    "ES": 17,
+    "AS": 12
+  },
+  "difficulties": {
+    "Rigid-body": 162,
+    "Medium": 60,
+    "Difficult": 35
+  },
+  "irmsd": {
+    "mean": 1.3828015564202334,
+    "median": 1.06,
+    "std": 1.0904804397019545,
+    "min": 0.29,
+    "max": 8.38,
+    "near_native_count": 249,
+    "near_native_percent": 96.88715953307393
+  },
+  "dasa": {
+    "mean": 1848.3618677042803,
+    "median": 1697.0,
+    "std": 697.3553203059384,
+    "min": 799.0,
+    "max": 6671.0
+  }
+}

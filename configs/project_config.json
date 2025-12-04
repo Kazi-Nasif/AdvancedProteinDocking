@@ -1,0 +1,45 @@
+{
+  "project_name": "AdvancedProteinDocking",
+  "project_root": "/home/claude/AdvancedProteinDocking",
+  "benchmark": {
+    "name": "Benchmark 5.5",
+    "num_targets": 257,
+    "metrics": [
+      "IRMSD",
+      "DASA",
+      "DockQ",
+      "fnat"
+    ],
+    "source_excel": "/mnt/project/Table_BM5_5.xlsx",
+    "threshold_irmsd": 4.0,
+    "threshold_dockq": 0.23
+  },
+  "baselines": {
+    "AlphaRed": {
+      "success_rate": 0.63,
+      "antibody_success_rate": 0.43,
+      "global_docking_threshold": 85
+    },
+    "DiffDock": {
+      "type": "protein-ligand",
+      "note": "Can take ideas but different task"
+    },
+    "SimpleFold": {
+      "note": "Reference for methodology"
+    }
+  },
+  "target_conferences": [
+    "IJCAI",
+    "ICML",
+    "NeurIPS"
+  ],
+  "evaluation": {
+    "rigid_rmsd_threshold": 1.2,
+    "medium_rmsd_threshold": 2.2,
+    "capri_criteria": {
+      "acceptable": "DockQ > 0.23",
+      "medium": "DockQ > 0.49",
+      "high": "DockQ > 0.8"
+    }
+  }
+}

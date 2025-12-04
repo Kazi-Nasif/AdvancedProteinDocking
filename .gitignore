@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Data files (large datasets)
+data/alphared_benchmark/
+data/benchmark/
+*.pdb
+*.cif
+
+# Model checkpoints (large files)
+experiments/*/
+*.pt
+*.pth
+*.ckpt
+
+# Results (can be regenerated)
+test_results/
+verification/
+quick_test/
+demo_results/
+batch_results/
+casp15_results/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Screen sessions
+*.screenrc
+
+# Keep structure but ignore contents
+!experiments/.gitkeep
+!data/.gitkeep
+!results/.gitkeep
