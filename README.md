@@ -155,3 +155,37 @@ This project is licensed under the MIT License - see LICENSE file for details.
 Kazi Nasif - [nasif.ruet@gmail.com]
 
 Project Link: [https://github.com/Kazi-Nasif/AdvancedProteinDocking](https://github.com/Kazi-Nasif/AdvancedProteinDocking)
+
+## 📥 Dataset Setup
+
+The Benchmark 5.5 dataset is not included in this repository due to its size.
+
+### Download and Setup:
+
+1. **Download Benchmark 5.5:**
+```bash
+   # Download from official source
+   wget https://zlab.umassmed.edu/benchmark/benchmark5.5.tgz
+   
+   # Extract
+   tar -xzf benchmark5.5.tgz
+   
+   # Place in data directory
+   mv benchmark5.5 data/alphared_benchmark/
+```
+
+2. **Verify structure:**
+```bash
+   data/alphared_benchmark/
+   ├── rigid_targets/    (159 complexes)
+   ├── medium_targets/   (60 complexes)
+   └── difficult_targets/ (35 complexes)
+```
+
+3. **Each target contains:**
+   - `*_r_u.pdb` - Receptor unbound
+   - `*_l_u.pdb` - Ligand unbound  
+   - `*_b.pdb` - Bound complex (ground truth)
+
+**Total dataset size:** ~500MB  
+**Number of targets:** 254 protein complexes
