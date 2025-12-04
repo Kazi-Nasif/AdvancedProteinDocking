@@ -22,8 +22,6 @@
 | I-RMSD | < 4.0 Å | ~63% | 92.7% | Secondary validation ✓ |
 | Ab-Ag DockQ | > 0.23 | 43% | 95.5% | Critical comparison ✓ |
 
-**✅ CONCLUSION: Your comparison uses the EXACT SAME metrics as AlphaRed!**
-
 ---
 
 ## ✅ Which PDB files were used?
